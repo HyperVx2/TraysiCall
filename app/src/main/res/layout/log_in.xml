@@ -24,7 +24,7 @@
         android:textColor="#000000"
         app:backgroundTint="#FF9800"
         tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="365dp" />
+        tools:layout_editor_absoluteY="502dp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="409dp"
@@ -38,6 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="32"
             android:hint="Email" />
+
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -45,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="32"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="239dp">
+        tools:layout_editor_absoluteY="253dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -53,6 +54,7 @@
             android:layout_margin="32"
             android:hint="Password"
             android:marqueeRepeatLimit="32" />
+
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
@@ -60,24 +62,25 @@
         android:layout_width="178dp"
         android:layout_height="38dp"
         android:text="Forgot your password?"
+        android:textColor="#050404"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="414dp" />
+        tools:layout_editor_absoluteY="551dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Register"
+        android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="444dp" />
+        tools:layout_editor_absoluteY="589dp" />
 
     <TextView
         android:id="@+id/textView4"
@@ -89,5 +92,40 @@
         android:textStyle="bold"
         tools:layout_editor_absoluteX="156dp"
         tools:layout_editor_absoluteY="119dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="235dp"
+        android:layout_height="59dp"
+        android:text="Continue to Facebook"
+        app:backgroundTint="#1877F2"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="54dp"
+        android:layout_height="51dp"
+        app:srcCompat="@drawable/facebookicon"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        app:srcCompat="@drawable/download"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="235dp"
+        android:layout_height="59dp"
+        android:text="Continue to Google"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="443dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
