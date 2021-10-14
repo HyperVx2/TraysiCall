@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/Desktop/TraysiCall/app/src/main/res/layout/congratulation.xml" value="0.2" />
+        <entry key="..\:/Users/User/Desktop/TraysiCall/app/src/main/res/layout/log_in.xml" value="0.19655797101449277" />
+        <entry key="..\:/Users/User/Desktop/TraysiCall/app/src/main/res/layout/sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/TraysiCall/app/src/main/res/layout/sign_up2.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/TraysiCall/app/src/main/res/layout/sign_up3.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/TraysiCall/app/src/main/res/layout/splash_screen.xml" value="0.14" />
+        <entry key="..\:/Users/User/Desktop/TraysiCall/app/src/main/res/layout/user_information_sheet.xml" value="0.18" />
         <entry key="..\:/Users/chada/Desktop/TraysiCall/app/src/main/res/layout/log_in.xml" value="0.25833333333333336" />
       </map>
     </option>
