@@ -7,42 +7,16 @@
     android:background="#FFF170">
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="279dp">
+        android:layout_width="127dp"
+        android:layout_height="58dp"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="385dp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="32"
-            android:hint="Re-enter Password" />
-
-        <CheckBox
-            android:id="@+id/checkBox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="I Accept all Terms and Conditions" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:hint="Retype Password"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="279dp" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="206dp">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="32"
-            android:hint="Password" />
+            android:layout_width="104dp"
+            android:layout_height="34dp"
+            android:layout_margin="12"
+            android:hint="hint" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -50,33 +24,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="back"
+        android:textColor="#020101"
         app:backgroundTint="#FF9800"
         tools:layout_editor_absoluteX="19dp"
         tools:layout_editor_absoluteY="25dp" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="134dp">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="32"
-            android:hint="Email" />
-    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/button5"
         android:layout_width="141dp"
         android:layout_height="54dp"
         android:text="Next"
+        android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
         app:backgroundTint="#FF9800"
         tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="486dp" />
+        tools:layout_editor_absoluteY="661dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -87,6 +50,107 @@
         android:textSize="34sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="89dp" />
+        tools:layout_editor_absoluteY="25dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="128dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_margin="12"
+            android:hint="hint" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="181dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="386dp"
+            android:layout_height="47dp"
+            android:layout_margin="12"
+            android:hint="hint" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="235dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="388dp"
+            android:layout_height="47dp"
+            android:layout_margin="12"
+            android:hint="hint" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="291dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="388dp"
+            android:layout_height="47dp"
+            android:layout_margin="12"
+            android:hint="hint" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="122dp"
+        android:layout_height="59dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="384dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="104dp"
+            android:layout_height="34dp"
+            android:layout_margin="12"
+            android:hint="hint" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="127dp"
+        android:layout_height="58dp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="385dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="104dp"
+            android:layout_height="34dp"
+            android:layout_margin="12"
+            android:hint="hint" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="465dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hint" />
+    </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
