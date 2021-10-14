@@ -10,24 +10,35 @@
         android:id="@+id/imageView"
         android:layout_width="441dp"
         android:layout_height="533dp"
-        app:srcCompat="@drawable/unnamed"
-        tools:layout_editor_absoluteX="-15dp"
-        tools:layout_editor_absoluteY="76dp" />
+        android:layout_marginTop="76dp"
+        android:layout_marginBottom="122dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/unnamed" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="108dp"
         android:layout_height="179dp"
-        app:srcCompat="@drawable/catbalogan_logo"
-        tools:layout_editor_absoluteX="204dp"
-        tools:layout_editor_absoluteY="86dp" />
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.141"
+        app:srcCompat="@drawable/catbalogan_logo" />
 
     <Button
         android:id="@+id/splashscreen_button1"
         android:layout_width="214dp"
         android:layout_height="58dp"
         android:layout_marginBottom="216dp"
-        android:background="#917878"
+        android:background="@drawable/button_prim"
         android:onClick="login"
         android:text="Get started"
         android:textSize="20sp"
