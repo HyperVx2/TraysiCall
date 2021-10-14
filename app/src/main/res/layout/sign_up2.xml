@@ -47,7 +47,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="12"
+            android:layout_margin="12dp"
             android:hint="Region, Province, City, Barangay" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -78,7 +78,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="12"
+            android:layout_margin="12dp"
             android:hint="Postal Code" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -96,7 +96,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="12"
+            android:layout_margin="12dp"
             android:hint="Street Name, Building, House No." />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -196,14 +196,13 @@
         android:layout_width="35dp"
         android:layout_height="40dp"
         android:rotation="0"
-        android:translationX="-6"
-        android:translationY="2"
+        android:translationX="-6dp"
+        android:translationY="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.643"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26"
-        app:srcCompat="@drawable/camera" />
+        app:layout_constraintVertical_bias="0.26" ></ImageView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
